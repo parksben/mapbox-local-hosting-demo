@@ -1,0 +1,29 @@
+.level-count-control {
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 3px;
+}
+
+.level-count-control-title {
+  content: '风险等级';
+  display: block;
+  font-size: 12px;
+  line-height: 18px;
+  color: #fff;
+  text-align: center;
+  padding-top: 6px;
+}
+
+.level-count-control-legend-btn {
+  display: block;
+  width: 60px;
+  height: 20px;
+  margin: 8px;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  opacity: 0.8;
+}

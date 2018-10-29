@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Shenzhen",
+    "lnglat": "114.0549,22.5440",
+    "value": 98
+  },
+  {
+    "name": "Longhua",
+    "lnglat": "114.0161,22.6552",
+    "value": 67
+  },
+  {
+    "name": "Pinghu",
+    "lnglat": "114.1195,22.6964",
+    "value": 72
+  },
+  {
+    "name": "Buji",
+    "lnglat": "114.1116,22.6029",
+    "value": 44
+  }
+]

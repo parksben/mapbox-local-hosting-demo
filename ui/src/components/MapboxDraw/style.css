@@ -1,0 +1,23 @@
+.mb-draw,
+.mb-draw > .mb-drawer {
+  width: 100%;
+  height: 100%;
+}
+
+.mb-draw {
+  position: relative;
+}
+
+.mlevel {
+  display: none;
+}
+
+.show-lv_0 .mlevel_0,
+.show-lv_1 .mlevel_1,
+.show-lv_2 .mlevel_2,
+.show-lv_3 .mlevel_3,
+.show-lv_4 .mlevel_4,
+.show-lv_5 .mlevel_5 {
+  display: block;
+  opacity: 0.5;
+}

@@ -1,0 +1,53 @@
+html,
+body {
+  font: 14px/18px Helvetica, Arial, 'Microsoft Yahei', Verdana, sans-serif;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #eee;
+  --content-width: 960px;
+}
+
+body * {
+  margin: 0;
+  padding: 0;
+}
+
+.issue {
+  width: var(--content-width);
+  padding: 24px 0;
+  box-sizing: border-box;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+  margin: 16px 0;
+}
+
+h5 {
+  font-size: 18px;
+  color: #000;
+}
+
+h5,
+pre {
+  margin: 12px auto;
+}
+
+pre {
+  color: #666;
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+.container {
+  width: var(--content-width);
+  height: 660px;
+  margin: 0 auto;
+  background-color: #ccc;
+}

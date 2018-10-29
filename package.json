@@ -1,0 +1,25 @@
+{
+  "name": "mapbox-local-hosting-demo",
+  "description": "A project for running a self-hosting map by using some tech-stack from Mapbox",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:parksben/mapbox-local-hosting-demo.git"
+  },
+  "private": true,
+  "scripts": {
+    "build": "cd ui/ && yarn build && cp-cli public/ ../server/build",
+    "tree": "node makeTree.js"
+  },
+  "workspaces": [
+    "ui",
+    "server"
+  ],
+  "engines": {
+    "node": ">=8.9.0",
+    "yarn": ">=1.0"
+  },
+  "devDependencies": {
+    "cp-cli": "^1.1.2"
+  }
+}
