@@ -1,6 +1,14 @@
 {
   "name": "mapbox-local-hosting-demo",
   "description": "A project for running a self-hosting map by using some tech-stack from Mapbox",
+  "keywords": [
+    "mapbox",
+    "mapbox-gl-js",
+    "mbview",
+    "mbtiles",
+    "local-hosting",
+    "self-hosting"
+  ],
   "license": "ISC",
   "repository": {
     "type": "git",
